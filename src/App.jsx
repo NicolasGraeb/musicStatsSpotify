@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import TopTracks from './TopTracks';
-import TopArtists from './TopArtists';
-import './header.css';
-import { redirectToSpotifyAuth, getToken, refreshToken } from './Login';
+import TopTracks from './components/TopTracks.jsx';
+import TopArtists from './components/TopArtists.jsx';
+import './components/header.css';
+import { redirectToSpotifyAuth, getToken, refreshToken } from './components/Login.js';
 
 const App = () => {
     const [accessToken, setAccessToken] = useState(null);

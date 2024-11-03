@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './songContainer.css';
-import TimeDropdown from './TimeDropdown.jsx';
+import TimeDropdown from './TimeDropDown.jsx';
 
 const TopTracks = ({ accessToken }) => {
     const [topTracks, setTopTracks] = useState([]);

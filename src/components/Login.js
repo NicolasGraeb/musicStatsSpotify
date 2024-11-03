@@ -1,5 +1,5 @@
 export const clientId = '8dd0190c59e74083b9c4a1ec76943c6b';
-export const redirectUri = 'http://localhost:5174';
+export const redirectUri = 'http://localhost:4173';
 const scope = 'user-read-private user-read-email user-top-read';
 
 export const generateRandomString = (length) => {

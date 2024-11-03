@@ -1,0 +1,26 @@
+.header{
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+body {
+    height: 100vh; /* Ustal wysokość na 100% widoku */
+    margin: 0; /* Usuń domyślne marginesy */
+    background: rgb(29,28,28);
+background: linear-gradient(143deg, rgba(29,28,28,0.8995973389355743) 45%, rgba(21,56,22,0.958420868347339) 69%, rgba(27,69,29,0.8827906162464986) 92%, rgba(26,88,26,0.7959558823529411) 99%);
+}
+
+.content-containers{
+    display: flex;
+    flex-direction: row;
+    gap:10%;
+    justify-content: center;
+
+    margin-bottom: 6px;
+}

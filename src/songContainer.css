@@ -1,0 +1,96 @@
+.tracks-scroll-container {
+    max-height: 550px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2px;
+}
+
+.tracks-scroll-container::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+.tracks-scroll-container::-webkit-scrollbar-track{
+    background: #1a1a1a;
+    border-radius: 10px;
+}
+
+
+.tracks-scroll-container::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 10px;
+}
+
+.tracks-scroll-container::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+
+.top-tracks {
+    overflow-inline: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.input-number {
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.song-container {
+    display: flex;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    width: 400px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.song-image {
+    padding:10px;
+    margin-right: 10px;
+}
+.label {
+    font-size: 12px;
+    color: #a6a6a6;
+}
+
+.value {
+    font-size: 16px;
+    color: white;
+}
+
+.song-info {
+    flex: 1;
+}
+.top-five-tracks{
+    display: flex;
+    justify-content: center;
+
+
+}
+.list-of-songs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 6px;
+}

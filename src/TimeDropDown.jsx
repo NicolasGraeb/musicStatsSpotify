@@ -1,5 +1,5 @@
 import React from 'react';
-import 'dropdown.css';
+import './dropdown.css';
 
 const TimeDropdown = ({ timeRange, setTimeRange }) => {
     const handleChange = (event) => {

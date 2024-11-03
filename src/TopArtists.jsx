@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import 'artistContainer.css';
-import TimeDropdown from "TimeDropdown.jsx";
+import './artistContainer.css';
+import TimeDropdown from "./TimeDropdown.jsx";
 
 const TopArtists = ({ accessToken }) => {
     const [topArtists, setTopArtists] = useState([]);
